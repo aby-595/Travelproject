@@ -23,3 +23,8 @@ def demo(request):
 #     y3=float(request.GET['num2'])
 #     res3=x3/y3
 #     return render(request,"about.html",{'result':res,'result1':res1,'result2':res2,'result3':res3})
+def about(request):
+    return render(request,'about.html')
+
+def index(request):
+    return render(request,'index.html')
